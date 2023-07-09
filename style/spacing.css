@@ -1,0 +1,39 @@
+.d-flex {
+    display: flex;
+}
+
+.w-75{
+    width: 75%;
+}
+
+.w-35{
+    width: 35%; 
+}
+
+.py-10px {
+    padding: 10px 0 10px 0;
+}
+
+.px-5px{
+    margin: 0 5px 0 5px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.pt-30px {
+    padding-top: 30px;
+}
+
+.align-items-end{
+  align-items: flex-end;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.pt-150px {
+    padding-top: 150px;
+}

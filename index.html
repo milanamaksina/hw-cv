@@ -3,68 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/fonts.css" />
+    <link rel="stylesheet" href="style/colors.css" />
+    <link rel="stylesheet" href="style/spacing.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
     <title>CV</title>
   </head>
   <body>
-    <div class="cv-container">
-      <div class="right-side-container">
-        <div></div>
-        <div class="">
+    <div class="d-flex cv-container">
+      <div class="d-flex right-side-container bg-dark w-35">
+        <img class="cv-photo" src="photo.jpg" alt="" />
+        <div class="f-white py-10px">
           <h3>Contact</h3>
-          <div class="line-width"><hr class="line" /></div>
-          <div class="">
+          <div class="line-width"><hr class="line bg-white" /></div>
+          <div class="py-10px">
             <h4>Phone</h4>
-            <p>+359</p>
+            <p>+359 356 45 54</p>
           </div>
-          <div class="">
+          <div class="py-10px">
             <h4>Email</h4>
-            <span>mmaksinaa@gmail.com</span>
+            <p>mmaksinaa@gmail.com</p>
           </div>
-          <div class="">
+          <div class="py-10px">
             <h4>Address</h4>
-            <p>+359</p>
+            <p>Bulgaria, Burgas</p>
           </div>
-        </div>
-        <div>
-          <h3>Education</h3>
-          <div class="line-width"><hr class="line" /></div>
-        </div>
-        <div>
+          <div class="pt-150px">
+            <h3>Education</h3>
+            <div class="line-width"><hr class="line bg-white" /></div>
+            <div class="py-10px">
+              <p>Business Informatics</p>
+              <p>SPBGTI(TU)</p>
+            </div>
+          </div>
+          <div class="pt-30px">
             <h3>Language</h3>
-            <div class="line-width"><hr class="line" /></div>
+            <div class="line-width"><hr class="line bg-white" /></div>
+            <div class="py-10px d-flex space-between">
+              <div>
+                <p>Russian</p>
+              </div>
+              <div class="d-flex align-items-end">
+                <div class="bg-white circle px-5px"></div>
+                <div class="bg-white circle"></div>
+                <div class="bg-white circle px-5px"></div>
+                <div class="bg-white circle"></div>
+              </div>
+            </div>
+            <div class="d-flex text-align-end space-between">
+              <div>
+                <p>English</p>
+              </div>
+              <div class="d-flex align-items-end">
+                <div class="bg-white circle px-5px"></div>
+                <div class="bg-white circle"></div>
+                <div class="bg-circle-gray circle px-5px"></div>
+                <div class="bg-circle-gray circle"></div>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
-      <div class="left-side-container">
+      <div class="left-side-container w-75">
         <div class="header-container">
           <h1>Milana<br />Maksina</h1>
-          <h2>Fullstack developer</h2>
+          <h2 class="slim-weight">Fullstack developer</h2>
         </div>
-        <div>
+        <div class="py-5px">
           <h3>Profile</h3>
           <div class="line-width"><hr class="line" /></div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-            mollitia illo fugit quod libero alias exercitationem labore deserunt
-            sunt. Architecto deleniti, possimus aliquid placeat laudantium magni
-            recusandae quaerat facere porro?
+          <p class="py-10px f-brown">
+            Full-stack developer with over 1 years of experience. Successfully
+            built and maintained multiple web applications using modern
+            technologies and frameworks. Deep understanding of software
+            development concepts, architecture, and database design. Effective
+            team player with the ability to solve complex problems.
+            Results-oriented and committed to continuous professional
+            development.
           </p>
         </div>
         <div>
           <h3>Experience</h3>
           <div class="line-width"><hr class="line" /></div>
-          <div class="experience-container">
-            <div>
-              <p>2022-Present</p>
-              <p>Anko technologies corp</p>
+          <div class="d-flex space-between py-10px f-brown">
+            <div class="w-35">
+              <p class="f-dark-brown bold-weight">2022 - Present</p>
+              <p>Anko corp</p>
             </div>
-            <div>
-              <p>Junior fullstack developer</p>
+            <div class="w-75">
+              <p class="f-dark-brown bold-weight">Junior fullstack developer</p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatem harum facere corrupti dolore. Sequi cupiditate,
-                numquam minima earum facilis soluta delectus quas, iure quo
-                nostrum distinctio fuga ad, quidem omnis?
+                Developed and maintained web applications using modern
+                frameworks and tools. Collaborated with a team of developers to
+                achieve project goals and deadlines. Participated in all stages
+                of development, including requirements analysis, design,
+                development, testing, and deployment. Optimized performance and
+                ensured the security of web applications.
               </p>
             </div>
           </div>
@@ -72,6 +112,22 @@
         <div>
           <h3>Skills</h3>
           <div class="line-width"><hr class="line" /></div>
+          <div class="skills-container py-10px">
+            <div class="column"><p>JavaScript</p></div>
+            <div class="column d-flex align-items-end">
+              <div class="bg-dark circle px-5px"></div>
+              <div class="bg-dark circle"></div>
+              <div class="bg-circle-gray circle px-5px"></div>
+              <div class="bg-circle-gray circle"></div>
+            </div>
+            <div class="column"><p>.NET</p></div>
+            <div class="column d-flex align-items-end">
+              <div class="bg-dark circle px-5px"></div>
+              <div class="bg-dark circle"></div>
+              <div class="bg-circle-gray circle px-5px"></div>
+              <div class="bg-circle-gray circle"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
